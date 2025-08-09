@@ -16,14 +16,8 @@ function Tweet({tweet}) {
           <User name={tweet.user.name} handle={tweet.user.handle} />
           <Timestamp time={tweet.timestamp} />
         </div>
-
-        <p className="message">
           <Message message={tweet.message} />
-        </p>
-
-        <div className="actions">
           <Actions />
-        </div>
       </div>
 
       <i className="fas fa-ellipsis-h"></i>
